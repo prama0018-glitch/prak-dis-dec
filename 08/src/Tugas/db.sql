@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS produk (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    stok INT NOT NULL,
+    kode CHAR(5) NOT NULL,
+    nama VARCHAR(100) NOT NULL,
+    tersedia BOOLEAN NOT NULL,
+    harga FLOAT NOT NULL
+);
